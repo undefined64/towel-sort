@@ -3,7 +3,7 @@
 module.exports = function towelSort(matrix) {
     const towelMatrix = [];
 
-    if (!matrix || matrix.length === 0) {
+    if (!matrix) {
         return towelMatrix;
     }
     for (let i = 0; i < matrix.length; i++) {
